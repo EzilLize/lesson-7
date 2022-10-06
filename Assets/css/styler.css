@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* form1 */
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.ttf');
+}
+.enter{
+    width: 568px;
+    height: 594px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    margin: 0 auto;
+}
+.enter_header{
+    display: flex;
+    align-items: center;
+    padding: 30px ;
+    border-bottom: 1px solid #C4C4C4;
+}
+.enter_subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #474747;
+    display: flex;
+    align-items: center;
+    
+}
+.enter_subtitle::before{
+    content: '\00D7';
+    font-size: 25px;
+    display: block;
+    margin: 0 180 0 0;
+    margin-right: 227px;
+}
+.enter_form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 45px 30px;
+    
+}
+.enter_form_title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363636;
+    margin-bottom: 22px;
+}
+.enter_form_input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #363636;
+    border: 1px solid #B0B0B0;
+    border-radius: 8px;
+    padding: 19px 14px;
+    margin-bottom: 15px;
+}
+.enter_from_subtext{
+    width: 109px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #008C8C;
+    margin-left: 208px;
+    margin: 9px;
+    align-self: center;
+}
+
+
+.enter_form_btn{
+    background: #B13957;
+    border-radius: 30px;
+    width: 518px;
+    height: 43px;
+
+   
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    padding: 12px 0;
+}
+.enter_form_button{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #474747;
+    border: 1px solid #AFAFAF;
+    background-color: #FFFFFF;
+    padding: 18px 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    border-radius: 30px;
+    
+}
+.Google::before{
+    content: '';
+    background: url('../img/google.svg');
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    
+}
+.Facebook::before{
+    content: '';
+    background: url('../img/Facebook.svg');
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+span{
+    color: #008C8C;
+}
+
